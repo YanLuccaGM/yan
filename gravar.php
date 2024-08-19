@@ -1,7 +1,7 @@
 <?php
 
+session_start();
 
-print_r($_POST);
-echo $_POST["Nome"];
+echo "Olá ". $_SESSION["nome"];
 
 ?>
